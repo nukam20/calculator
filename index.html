@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content = "width=device-width" initial-scale = 1.0">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css" type = "text/css"/>
+    </head>
+    <body>
+            <div class = "box">
+                <div class = "display"><input type = "text" readonly size ="18" id ="dplay"></div>
+                    <div class = "keys">
+                       <p>
+                                <input type = "button" class ="button gray" value ="mrc" onclick ='c("Created ...")'>
+                                <input type = "button" class = "button gray" value = "m+" onclick = 'c("..by..")'>
+                                <input type ="button" class="button gray" value = "m-" onclick = 'c("..Uche..")'>
+                                <input type ="button" class="button pink" value = "/" onclick = 'b("/")'>
+                        </p>  
+                        <p> 
+                                <input type ="button" class="button black" value = "7" onclick = 'b("7")'> 
+                                <input type ="button" class="button black" value = "8" onclick = 'b("8")'> 
+                                <input type ="button" class="button black" value = "9" onclick = 'b("9")'> 
+                                <input type ="button" class="button pink" value = "*" onclick = 'b("*")'>
+                        </p>       
+                        <p>
+                                <input type ="button" class="button black" value="4" onclick = 'b("4")'>
+                                <input type ="button" class="button black" value="5" onclick = 'b("5")'>
+                                <input type ="button" class="button black" value="6" onclick = 'b("6")'>
+                                <input type ="button" class="button pink" value="-" onclick = 'b("-")'>
+                        </p>
+                        <p>
+                                <input type ="button" class="button black" value="1" onclick = 'b("1")'>
+                                <input type ="button" class="button black" value="2" onclick = 'b("2")'>
+                                <input type ="button" class="button black" value="3" onclick = 'b("3")'>
+                                <input type ="button" class="button pink" value="+" onclick = 'b("+")'>
+                        </p>
+                        <p>
+                                <input type ="button" class="button black" value="0" onclick = 'b("0")'>
+                                <input type ="button" class="button black" value="." onclick = 'b(".")'>
+                                <input type ="button" class="button black" value="C" onclick = 'c("")'>
+                                <input type ="button" class="button orange" value="=" onclick = 'e()'>
+                        </p>
+                    </div>
+            </div>
+        <script src="calc.js"></script>
+    </body
+</html>
